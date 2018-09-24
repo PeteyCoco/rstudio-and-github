@@ -5,4 +5,8 @@ date: "September 23, 2018"
 output: html_document
 ---
 
-In this notebook I will demonstrate how to use the version control system (VCS) functionality included in RStudio.
+## Basic Idea
+
+In this notebook I will explore how to use the version control system (VCS) functionality included in RStudio.
+
+To begin, we create a new repository in github along with the conventional files such as the README. Next we create a new project in RStudio, select Version Control, and then choose Git. It is a good idea to send a pull request to the repository to ensure that it matches our local repository. Now that we have our project created, we can add new files as needed and use R as we normally would. Whenever we want to save our work, press 'commit' to save the changes to our local repository and then press 'push' to copy our repository github. 
