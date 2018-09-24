@@ -10,3 +10,7 @@ output: html_document
 In this notebook I will explore how to use the version control system (VCS) functionality included in RStudio.
 
 To begin, we create a new repository in github along with the conventional files such as the README. Next we create a new project in RStudio, select Version Control, and then choose Git. It is a good idea to send a pull request to the repository to ensure that it matches our local repository. Now that we have our project created, we can add new files as needed and use R as we normally would. Whenever we want to save our work, press 'commit' to save the changes to our local repository and then press 'push' to copy our repository github. 
+
+## Branching
+
+Here we demonstrate a branch. Suppose that we have a project that is more or less complete, in that it is working as intended, but we have some extra features that we want to implement. Rather than copying the entire project and working in another directory, we can create a branch in our repository that allows us to work in the existing project without disturbing the completed build. To do this we click the New Branch button in the Git view of R. Now we can make changes to our project while being able to switch back to the stable build as needed!
