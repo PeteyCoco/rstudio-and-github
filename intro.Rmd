@@ -1,0 +1,8 @@
+---
+title: "Introduction to VCS in RStudio"
+author: "Peter Collins"
+date: "September 23, 2018"
+output: html_document
+---
+
+In this notebook I will demonstrate how to use the version control system (VCS) functionality included in RStudio.
